@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Feliko Packages | Gift Packing Services</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: #fafafa;
+      color: #333;
+    }
+    header {
+      background: #8b5cf6;
+      color: white;
+      padding: 30px 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 36px;
+    }
+    header p {
+      margin-top: 10px;
+      font-size: 18px;
+    }
+    nav {
+      background: #6d28d9;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: black;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+    .card h3 {
+      color: #6d28d9;
+    }
+    .price {
+      font-weight: bold;
+      color: #16a34a;
+      margin-top: 10px;
+    }
+    .contact {
+      background: #f3f4f6;
+      border-radius: 10px;
+      padding: 30px;
+      text-align: center;
+    }
+    footer {
+      background: #111827;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 40px;
+    }
+    button, .whatsapp-btn {
+      background: #8b5cf6;
+      color: white;
+      border: none;
+      padding: 12px 20px;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 16px;
+      text-decoration: none;
+      display: inline-block;
+      margin-top: 10px;
+    }
+    button:hover, .whatsapp-btn:hover {
+      background: #6d28d9;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+      max-width: 400px;
+      margin: auto;
+    }
+    input, textarea {
+      padding: 10px;
+      margin-bottom: 15px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+      font-size: 16px;
+    }
+    textarea {
+      resize: vertical;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <img src="logo.png" alt="Feliko Packages" style="width:240px; margin-bottom:15px; border-radius:12px;">
+  <h1>Feliko Packages</h1>
+  <p>We Wrap Emotions, Not Just Gifts</p>
+</header>
+
+<nav>
+  <a href="#about">About</a>
+  <a href="#services">Services</a>
+  
+  <a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
+  <h2>About Us</h2>
+  <p>
+    Feliko Packages provides professional gift packing services for all occasions.
+    From weddings and birthdays to Eid, school events, and Hajj & Umrah gifts,
+    we make sure every gift looks special and meaningful.
+  </p>
+</section>
+
+<section id="services">
+  <h2>Our Services</h2>
+  <div class="services">
+    <div class="card"><h3>Wedding & Nikkah</h3><p>Elegant and premium gift packing for weddings.</p></div>
+    <div class="card"><h3>Birthday Parties</h3><p>Fun, colorful packing for kids and adults.</p></div>
+    <div class="card"><h3>School Events</h3><p>Neat and creative return gift packing.</p></div>
+    <div class="card"><h3>Eid Gifts</h3><p>Graceful and respectful Eid packing.</p></div>
+    <div class="card"><h3>Christmas</h3><p>Festive and stylish Christmas gift wrapping.</p></div>
+    <div class="card"><h3>Hajj & Umrah</h3><p>Simple and respectful packing for sacred gifts.</p></div>
+  </div>
+</section>
+
+
+
+<section id="contact">
+  <div class="contact">
+    <h2>Contact Us</h2>
+    <p>📞 Phone / WhatsApp: 03XXXXXXXX</p>
+    <p>📧 Email: felikopackages@gmail.com</p>
+    <p>📍 Home-based service</p>
+
+    <h3>Send a Message / Place an Order</h3>
+    <form action="mailto:felikopackages@gmail.com" method="post" enctype="text/plain">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" rows="5" placeholder="Your Message / Order Details" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+
+    <a class="whatsapp-btn" href="https://wa.me/03XXXXXXXXX" target="_blank">Message on WhatsApp</a>
+  </div>
+</section>
+
+<footer>
+  <p>© 2026 Feliko Packages. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
